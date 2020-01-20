@@ -1,0 +1,96 @@
+:root {
+    --cta-color: #3d9970;
+}
+
+body {
+    font-family: 'Libre Caslon Text', serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--cta-color);
+}
+
+[data-stats-name] {
+    font-weight: 700;
+}
+
+.mountains-bg {
+    background-color: var(--cta-color);
+}
+
+.margin-top-2 {
+    margin-top: 1rem;
+}
+
+.text-muted {
+    color: gray !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.stats {
+    width: 200px;
+    margin: 1.5rem;
+    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+
+    background-color: #f1ece6;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.stats-category {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.story-container {
+    width: 50%;
+    height: 500px;
+    background-color: #f1ece6;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 2.5rem;
+}
+
+.cta-btn {
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    background-color: #001f3f;
+
+    font-size: 20px;
+
+    border-radius: 3px;
+    box-shadow: none;
+    border: none;
+}
+
+
+
+
+
+
